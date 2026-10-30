@@ -11,7 +11,7 @@ import javax.jms.MessageConsumer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
 import org.apache.activemq.ActiveMQConnectionFactory;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /** Proves a message really travels through a broker. Uses an embedded in-JVM broker (vm://), no Docker needed. */
 class ActiveMqStagePublisherTest {
