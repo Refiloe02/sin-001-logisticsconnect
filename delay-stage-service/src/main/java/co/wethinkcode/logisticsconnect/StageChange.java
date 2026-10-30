@@ -1,4 +1,4 @@
 package co.wethinkcode.logisticsconnect;
 
-public class StageChange {
+public record StageChange(String hubId, int stage, String timestamp) {
 }
