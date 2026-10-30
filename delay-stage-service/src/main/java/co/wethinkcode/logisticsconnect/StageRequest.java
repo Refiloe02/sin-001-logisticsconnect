@@ -1,4 +1,4 @@
 package co.wethinkcode.logisticsconnect;
 
-public class StageRequest {
+public record StageRequest(Integer stage) {
 }
