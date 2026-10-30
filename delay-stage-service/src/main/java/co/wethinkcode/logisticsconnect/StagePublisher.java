@@ -1,4 +1,6 @@
 package co.wethinkcode.logisticsconnect;
 
-public class StagePublisher {
+public interface StagePublisher {
+
+    void publish(StageChange change) throws Exception;
 }
