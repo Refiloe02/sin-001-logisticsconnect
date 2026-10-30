@@ -1,4 +1,7 @@
 package co.wethinkcode.logisticsconnect;
 
-public class StageChange {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public record StageChange(String hubId, Integer stage, String timestamp) {
 }
