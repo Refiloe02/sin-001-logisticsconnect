@@ -1,4 +1,6 @@
 package co.wethinkcode.logisticsconnect;
 
-public class SocialPoster {
+public interface SocialPoster {
+
+    void post(Alert alert);
 }
