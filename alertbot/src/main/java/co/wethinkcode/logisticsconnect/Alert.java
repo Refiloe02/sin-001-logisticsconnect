@@ -1,4 +1,4 @@
 package co.wethinkcode.logisticsconnect;
 
-public class Alert {
+public record Alert(String hubId, int stage, String kind, String message, String timestamp) {
 }
