@@ -48,6 +48,12 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>org.apache.activemq</groupId>
+          <artifactId>activemq-broker</artifactId>
+          <version>5.18.3</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
 
   <build>
